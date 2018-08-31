@@ -1,0 +1,42 @@
+
+ul {
+    border-radius: 4px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(37, 37, 37);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color:white;
+}
+
+.active {
+    background-color: #111;
+    color:white;
+}
+
+h1{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 36px;
+    margin:80px;
+    margin-bottom: 50px;
+    
+    text-align: center;
+}
